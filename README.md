@@ -1,1 +1,1 @@
-# responsive
+# soptify clone

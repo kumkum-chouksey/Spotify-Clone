@@ -16,6 +16,7 @@
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  margin-right: 10px;
 }
 .navbar{
   background-color:#121212;
@@ -59,18 +60,19 @@ a{
 .libary-first{
   display: flex;
 }
-.libary-first a{
+.lib {
+  opacity: 0.7;
   flex:1;
 }
-.libary-first a :hover{
+.lib :hover{
  cursor: pointer;
   opacity: 1;
 }
 .libary-icon {
   padding-left: 5px;
   padding-right: 12px;
-  width: 17px;
-  height: 17px;
+  width: 19px;
+  height: 19px;
 }
 .libary-icon :hover {
    cursor: pointer;
@@ -91,6 +93,46 @@ a{
   opacity: 0.7;
 }
 .lib-two :hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.lib-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+}
+.box{
+  background-color: rgb(55, 55, 55);
+  border-radius: 0.5rem;
+  margin: 10px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.box1 {
+  font-size:large;
+  font-weight: 700;
+}
+.box2{
+  font-size: medium;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.badge{
+  margin-top: 5px;
+  border-radius: 17px;
+  font-weight: 500;
+  background-color: white;
+  color: black;
+  opacity: 0.7;
+  height:30px;
+  border:none;
+  width: 55%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.badge {
   opacity: 1;
   cursor: pointer;
 }

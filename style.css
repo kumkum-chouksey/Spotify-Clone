@@ -143,6 +143,42 @@ a{
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  margin-top: 8px;
+}
+.navigation {
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:12px;
+  padding-right: 12px;
+  position: sticky;
+  top: 0;
+  background-color: #121212;
+}
+.right {
+  padding-left: 8px;
+  padding-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.right i :hover{
+  cursor: pointer;
+}
+.install {
+  margin-left: 16px;
+  margin-right: 16px;
+  background-color: #000;
+  color: #fff;
+  width: 110px;
+  height: 35px;
+  border-radius: 44px;
+  border: none;
+}
+.install:hover{
+  cursor: pointer;
 }
 .music-player {
   background-color: #000000;
